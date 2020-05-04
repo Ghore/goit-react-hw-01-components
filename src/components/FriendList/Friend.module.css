@@ -1,0 +1,28 @@
+.isActive {
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 15px;
+}
+.status {
+  composes: isActive;
+  background-color: red;
+}
+.friendsList {
+  list-style: none;
+  padding-top: 50px;
+
+}
+.item {
+
+  /*border: black 2px solid;*/
+  box-shadow: -5px -3px 26px -10px rgba(0, 0, 0, 0.75);
+  display: flex;
+  width: 400px;
+  margin-bottom: 8px;
+}
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
